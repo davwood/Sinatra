@@ -1,0 +1,29 @@
+
+
+h2 {
+	font: 70px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: center;
+}
+
+.Fizz {
+     font-family: times, Times New Roman, times-roman, georgia, serif;
+		font-size: 18px;
+		line-height: 23px;
+		text-transform: uppercase;
+		color: #444;}
+
+ ::-webkit-input-placeholder {
+   color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+}

@@ -1,0 +1,23 @@
+<div>
+    <img src=http://www.lisafrenchtech.com/img/portfolio/FizzBuzz.png>
+    <link href="/stylesheets/app.css" rel="stylesheet" type="text/css">
+    <br>
+	                
+    <% if @maximum %>
+    
+    <div class='Fizz'>
+
+    Your numbers, <%= @fizzling_array %>!
+
+	</div>
+  	<% else %>
+	<form action="/fizz">  
+  	You want FizzBuzz up to what?         
+    
+    <input type="number" name="maximum">         
+    <input type="submit">       
+  	</form>  
+   
+
+    <% end %>
+</div>
